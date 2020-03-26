@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: inherit;
+}
+header{
+    height: 96px;
+    padding: 30px 0 30px 146px;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+.black-container{
+    height: 95px;
+    padding-left: 146px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.grey-container{
+    height: 95px;
+    padding-left: 146px;
+    background-color: #c4c4c4;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    display: flex;
+    align-items: center;
+}
+article h3{
+    font-size: 34px;
+    color: white;
+}
+article h4{
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    padding-left: 46px;
+}
+article h5{
+    font-family: 'Oswald', sans-serif;
+    font-size: 21px;
+}
+article p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+}
+.white-container{
+    margin-left: 146px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.foto{
+    margin: 30px 0 ;
+}
+.time{
+    width: 150px;
+    margin-top: 65px;
+    font-size: 30px;
+    text-align: center;
+}
+.name{
+    max-width: 245px;
+    margin-top: 65px;
+}
+
+
+.big-container {
+    display: flex;
+    flex-direction: column;
+
+    flex-wrap: wrap;
+    max-width: 855px;
+    margin: 35px 146px;
+
+}
+
+.block-title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    max-width: 855px;
+    background-color: coral;
+
+}
+.title{
+    align-self: center;
+    padding: 0 60px;
+
+}
+.block-time-foto-author {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+.time-2{
+    display: flex;
+    align-items: flex-start;
+    font-size: 16px;
+    padding-top: 52px;
+}
+.time-2 p:after{
+    display: block;
+    content: "";
+    height: 2px;
+    max-width: 730px;
+    color: black;
+
+}
+.foto-author{
+    display: flex;
+    flex-direction: column;
+}
+.foto-2{
+    display: flex;
+    justify-content: center;
+}
+.author-name{
+    display: flex;
+    flex-direction: column;
+    padding-top: 28px;
+}
+.speaker-name {
+    font-family: 'Oswald', sans-serif;
+    font-size: 21px;
+}
+.speaker-specialty .speaker-from .speaker-topic{
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+}
+.intensive-course{
+    display: flex;
+    margin-top: 75px;
+}
+.last-time{
+    text-align: center;
+    width: 145px;
+    font-size: 28px;
+}
+.hall {
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+}
+.school{
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+}
